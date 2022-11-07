@@ -1,0 +1,3 @@
+﻿  main.cpp
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\list\11-7\sq-list\main.cpp(11,2): warning C4091: “typedef ”: 没有声明变量时忽略“SqList”的左侧
+  sq-list.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\list\11-7\Debug\sq-list.exe
