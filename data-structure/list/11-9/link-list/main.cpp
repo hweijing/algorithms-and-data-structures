@@ -81,11 +81,101 @@ bool getElemLinkList(LinkNode* L, int i, ElemType& e) { //输入结点的位序
 	{
 		return false;
 	}
-	else
+
+	e = p->data;
+
+	return true;
+}
+
+//按元素值查找
+int getLocateLinkList(LinkNode* L, int& i, ElemType e) {
+	LinkNode* p = L->next; //p 指针指向首结点
+
+	int i = 1; //表示结点的位序
+
+	while (p != NULL && p->data != e) //当 p 指针指向的结点不存在并且该结点的值不等于输入元素时
 	{
-		e = p->data;
-		return true;
+		p = p->next;
+		i++;
 	}
+
+	if (p == NULL)
+	{
+		return 0; //找不到与 e 相同的元素时，返回 0
+	}
+
+	return i;
+}
+
+//插入数据元素
+bool insertLinkList(LinkNode*& L, int i, ElemType e) {
+	if (i < 1)
+	{
+		return false;
+	}
+
+	int j = 0;
+
+	LinkNode* p = L, * s;
+
+	while (j < i - 1 && p != NULL)
+	{
+		p = p->next;
+		j++;
+	}
+
+	if (p == NULL)
+	{
+		return false;
+	}
+
+	s = (LinkNode*)malloc(sizeof(LinkNode));
+
+	s->data = e;
+
+	s->next = p->next;
+
+	p->next = s;
+
+	return true;
+}
+
+//删除数据元素
+bool deleteLinkList(LinkNode*& L, int i, ElemType& e) {
+	if (i < 1)
+	{
+		return false;
+	}
+
+	int j = 0;
+
+	LinkNode* p = L, * q;
+
+	while (j < i - 1 && p != NULL)
+	{
+		p = p->next;
+		j++;
+	}
+
+	if (p == NULL)
+	{
+		return false;
+	}
+
+	q = p->next;
+
+	if (q == NULL)
+	{
+		return false;
+	}
+
+	e = q->data;
+
+	p->next = q->next;
+
+	free(q);
+
+	return true;
 }
 
 //头插法
