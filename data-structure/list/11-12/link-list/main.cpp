@@ -133,40 +133,6 @@ int getLocateLinkList(LinkNode* L, ElemType e) {
 	return 0;
 }
 
-bool insertLinkList(LinkNode*& L, int i, ElemType e) {
-	int length = lengthLinkList(L);
-
-	if (i < 1 || i > length + 1)
-	{
-		return false;
-	}
-
-	//当 i 等于 length + 1时，找到第 length 个元素的指针，令 pre 指向第 length 个元素，p 指向第 length + 1 个元素，第 length + 1 个元素的指针为 NULL，即 p 等于 NULL
-	//s 插入到表尾，s->next = p，pre->next = s
-	int j = 0;
-
-	LinkNode* pre = L, * p = L->next;
-
-	while (pre != NULL && j < i - 1)
-	{
-		pre = p;
-		p = p->next;
-		j++;
-	}
-
-	LinkNode* s;
-
-	s = (LinkNode*)malloc(sizeof(LinkNode));
-
-	s->data = e;
-
-	s->next = p;
-
-	pre->next = s;
-
-	return true;
-}
-
 int main() {
 	ElemType a[] = { 2,1,4,3,3,5 };
 
@@ -176,8 +142,6 @@ int main() {
 
 	//i = 4
 	int i = getLocateLinkList(L, 3);
-
-	insertLinkList(L, 3, 6);
 
 	return 0;
 }

@@ -42,12 +42,6 @@ void createLinkListR(LinkNode*& L, ElemType a[], int n) {
 	r->next = NULL;
 }
 
-void initLinkList(LinkNode*& L) {
-	L = (LinkNode*)malloc(sizeof(LinkNode));
-
-	L->next = NULL;
-}
-
 void destroyLinkList(LinkNode*& L) {
 	LinkNode* pre = L, * p = L->next;
 
@@ -98,9 +92,9 @@ bool getElemLinkList(LinkNode* L, int i, ElemType& e) {
 }
 
 int getLocateLinkList(LinkNode* L, ElemType e) {
-	LinkNode* p = L->next;
-
 	int i = 1;
+
+	LinkNode* p = L->next;
 
 	while (p != NULL)
 	{
@@ -121,7 +115,7 @@ bool insertLinkList(LinkNode*& L, int i, ElemType e) {
 		return false;
 	}
 
-	LinkNode* p = L, * s; //p 指向要插入结点的前一个结点
+	LinkNode* p = L, * s;
 
 	int j = 0;
 
@@ -131,8 +125,7 @@ bool insertLinkList(LinkNode*& L, int i, ElemType e) {
 		j++;
 	}
 
-
-	if (p == NULL) //当要插入的结点的位序大于链表的长度 + 1 时，返回 false
+	if (p == NULL)
 	{
 		return false;
 	}
@@ -154,7 +147,7 @@ bool deleteLinkList(LinkNode*& L, int i, ElemType& e) {
 		return false;
 	}
 
-	LinkNode* p = L, * q; //p 指向要删除结点的前一个结点，q 指向要删除的结点
+	LinkNode* p = L, * q;
 
 	int j = 0;
 
@@ -164,19 +157,19 @@ bool deleteLinkList(LinkNode*& L, int i, ElemType& e) {
 		j++;
 	}
 
-	if (p == NULL) //当要删除的结点的位序大于链表的长度 + 1 时，返回 false 
+	if (p == NULL)
 	{
 		return false;
 	}
 
-	q = p->next; //令 q 指向要删除的结点
+	q = p->next;
 
-	if (q == NULL) //当要删除的结点的位序大于链表的长度时，返回 false
+	if (q == NULL)
 	{
 		return false;
 	}
 
-	e = q->data;
+	e = p->data;
 
 	p->next = q->next;
 
@@ -186,9 +179,11 @@ bool deleteLinkList(LinkNode*& L, int i, ElemType& e) {
 }
 
 int main() {
-	ElemType a[] = { 2,1,4,3,5 };
+	ElemType a[] = { 1,2,3 };
 
 	LinkNode* L;
+
+	createLinkListR(L, a, 3);
 
 	return 0;
 }
