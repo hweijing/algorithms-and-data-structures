@@ -118,14 +118,14 @@ bool getElemLinkList(LinkNode* L, int i, ElemType& e) {
 int getLocateLinkList(LinkNode* L, ElemType e) {
 	LinkNode* p = L->next;
 
-	int j = 1;
+	int i = 1;
 
 	while (p != NULL)
 	{
 		if (e == p->data) {
-			return j;
+			return i;
 		}
-		j++;
+		i++;
 		p = p->next;
 	}
 
