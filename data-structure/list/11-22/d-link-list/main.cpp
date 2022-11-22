@@ -51,12 +51,91 @@ void createDLinkListR(DLinkNode*& L, ElemType a[], int n) {
 	r->next = NULL;
 }
 
+bool insertDLinkList(DLinkNode*& L, int i, ElemType e) {
+	if (i < 1)
+	{
+		return false;
+	}
+
+	DLinkNode* p = L, * s;
+
+	int j = 0;
+
+	while (p->next != NULL && j < i - 1)
+	{
+		p = p->next;
+		j++;
+	}
+
+	if (p == NULL)
+	{
+		return false;
+	}
+
+	s = (DLinkNode*)malloc(sizeof(DLinkNode));
+
+	s->data = e;
+
+	s->prev = p;
+
+	s->next = p->next;
+
+	if (p->next != NULL)
+	{
+		p->next->prev = s;
+	}
+
+	p->next = s;
+
+	return true;
+}
+
+bool deleteDLinkList(DLinkNode*& L, int i, ElemType& e) {
+	if (i < 1)
+	{
+		return false;
+	}
+
+	DLinkNode* p = L, * q;
+
+	int j = 0;
+
+	while (p != NULL && j < i - 1)
+	{
+		p = p->next;
+		j++;
+	}
+
+	if (p == NULL)
+	{
+		return false;
+	}
+
+	q = p->next;
+
+	if (q == NULL)
+	{
+		return false;
+	}
+
+	e = q->data;
+
+	if (q->next != NULL)
+	{
+		q->next->prev = p;
+	}
+
+	p->next = q->next;
+
+	free(q);
+
+	return true;
+}
+
 int main() {
 	ElemType a[] = { 1,2,3 };
 
 	DLinkNode* L;
 
-	createDLinkListR(L, a, 3);
-	
 	return 0;
 }
