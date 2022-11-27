@@ -1,24 +1,24 @@
 #include <stdio.h>
 #include <malloc.h>
 
-#define MaxSize 50
+#define MaxSize 10
 
 typedef int ElemType;
 
 typedef struct SqStack {
 	ElemType data[MaxSize];
-	int top; //栈顶元素在 data 数组中的下标，没有元素时默认为 -1
+	int top;
 }SqStack;
 
 //初始化顺序栈
-void initStack(SqStack*& S) {
+void initSqStack(SqStack*& S) {
 	S = (SqStack*)malloc(sizeof(SqStack));
 
 	S->top = -1;
 }
 
-//销毁顺序栈
-void destoryStack(SqStack*& S) {
+//销毁栈
+void destroySqStack(SqStack*& S) {
 	free(S);
 }
 
@@ -34,9 +34,35 @@ bool pushSqStack(SqStack*& S, ElemType e) {
 		return false;
 	}
 
+	S->top++;
+
 	S->data[S->top] = e;
 
-	S->top++;
+	return true;
+}
+
+//出栈
+bool popSqStack(SqStack*& S, ElemType& e) {
+	if (S->top == -1)
+	{
+		return false;
+	}
+
+	e = S->data[S->top];
+
+	S->top--;
+
+	return true;
+}
+
+//取栈顶元素
+bool getTopSqStack(SqStack* S, ElemType& e) {
+	if (S->top == -1)
+	{
+		return false;
+	}
+
+	e = S->data[S->top];
 
 	return true;
 }
