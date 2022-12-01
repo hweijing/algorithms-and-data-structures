@@ -1,0 +1,4 @@
+﻿  main.cpp
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\queue\12-1\link-queue\main.cpp(9,2): warning C4091: “typedef ”: 没有声明变量时忽略“LinkNode”的左侧
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\queue\12-1\link-queue\main.cpp(14,2): warning C4091: “typedef ”: 没有声明变量时忽略“LinkQueueFNode”的左侧
+  link-queue.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\queue\12-1\Debug\link-queue.exe
