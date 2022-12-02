@@ -31,7 +31,6 @@ bool enCirQueue(CirQueue*& Q, ElemType e) {
 		return false;
 	}
 
-
 	Q->rear = (Q->rear + 1) % MaxSize;
 
 	Q->data[Q->rear] = e;
@@ -40,7 +39,8 @@ bool enCirQueue(CirQueue*& Q, ElemType e) {
 }
 
 bool deCirQueue(CirQueue*& Q, ElemType& e) {
-	if (Q->front == Q->rear) {
+	if (Q->front == Q->rear)
+	{
 		return false;
 	}
 

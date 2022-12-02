@@ -8,18 +8,18 @@ typedef struct LinkNode {
 	struct LinkNode* next;
 };
 
-typedef struct LinkQueueNode {
+typedef struct LinkQueueFNode {
 	struct LinkNode* front;
 	struct LinkNode* rear;
 };
 
-void initLinkQueue(LinkQueueNode*& Q) {
-	Q = (LinkQueueNode*)malloc(sizeof(LinkQueueNode));
+void initLinkQueue(LinkQueueFNode*& Q) {
+	Q = (LinkQueueFNode*)malloc(sizeof(LinkQueueFNode));
 
 	Q->front = Q->rear = NULL;
 }
 
-void destoryLinkQueue(LinkQueueNode*& Q) {
+void destoryLinkQueue(LinkQueueFNode*& Q) {
 	LinkNode* pre = Q->front, * p;
 
 	if (pre != NULL)
@@ -39,11 +39,11 @@ void destoryLinkQueue(LinkQueueNode*& Q) {
 	free(Q);
 }
 
-bool isEmptyLinkQueue(LinkQueueNode* Q) {
-	return Q->rear == NULL;
+bool isEmptyLinkQueue(LinkQueueFNode* Q) {
+	return Q->rear = NULL;
 }
 
-void enLinkQueue(LinkQueueNode*& Q, ElemType e) {
+void enLinkQueue(LinkQueueFNode*& Q, ElemType e) {
 	LinkNode* s;
 
 	s = (LinkNode*)malloc(sizeof(LinkNode));
@@ -52,7 +52,7 @@ void enLinkQueue(LinkQueueNode*& Q, ElemType e) {
 
 	s->next = NULL;
 
-	if (Q->rear == NULL)
+	if (Q->rear = NULL)
 	{
 		Q->front = Q->rear = s;
 	}
@@ -63,7 +63,7 @@ void enLinkQueue(LinkQueueNode*& Q, ElemType e) {
 	}
 }
 
-bool deLinkQueue(LinkQueueNode*& Q, ElemType& e) {
+bool deLinkQueue(LinkQueueFNode*& Q, ElemType& e) {
 	if (Q->rear == NULL)
 	{
 		return false;

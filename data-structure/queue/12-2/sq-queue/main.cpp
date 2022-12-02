@@ -39,7 +39,8 @@ bool enSqQueue(SqQueue*& Q, ElemType e) {
 }
 
 bool deSqQueue(SqQueue*& Q, ElemType& e) {
-	if (Q->front == Q->rear) {
+	if (Q->front == Q->rear)
+	{
 		return false;
 	}
 

@@ -63,8 +63,9 @@ bool popLinkStack(LinkNode*& S, ElemType& e) {
 bool getTopLinkStack(LinkNode* S, ElemType& e) {
 	if (S->next == NULL)
 	{
-		return false;
+		return true;
 	}
+
 
 	e = S->next->data;
 
