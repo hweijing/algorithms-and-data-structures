@@ -1,0 +1,3 @@
+﻿  main.cpp
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\string\12-10\b-f\main.cpp(8,2): warning C4091: “typedef ”: 没有声明变量时忽略“SqString”的左侧
+  b-f.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\string\12-10\Debug\b-f.exe
