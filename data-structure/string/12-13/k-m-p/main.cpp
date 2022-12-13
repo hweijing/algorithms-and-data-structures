@@ -12,7 +12,7 @@ void getNext(SqString t, int next[]) {
 
 	next[j] = k;
 
-	while (j < t.length -1)
+	while (j < t.length - 1)
 	{
 		if (k == -1 || t.data[j] == t.data[k])
 		{
