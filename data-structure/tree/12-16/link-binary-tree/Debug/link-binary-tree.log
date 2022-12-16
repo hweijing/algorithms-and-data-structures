@@ -1,0 +1,5 @@
+﻿  main.cpp
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-16\link-binary-tree\main.cpp(10,2): warning C4091: “typedef ”: 没有声明变量时忽略“BTNode”的左侧
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-16\link-binary-tree\main.cpp(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“SqStack”的左侧
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-16\link-binary-tree\main.cpp(20,9): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+  link-binary-tree.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-16\Debug\link-binary-tree.exe

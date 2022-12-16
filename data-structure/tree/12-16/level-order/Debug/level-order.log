@@ -1,0 +1,4 @@
+﻿  main.cpp
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-16\level-order\main.cpp(10,2): warning C4091: “typedef ”: 没有声明变量时忽略“BTNode”的左侧
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-16\level-order\main.cpp(16,2): warning C4091: “typedef ”: 没有声明变量时忽略“CirQueue”的左侧
+  level-order.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-16\Debug\level-order.exe
