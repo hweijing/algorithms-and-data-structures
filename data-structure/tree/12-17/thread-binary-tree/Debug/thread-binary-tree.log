@@ -1,0 +1,4 @@
+﻿  main.cpp
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-17\thread-binary-tree\main.cpp(12,2): warning C4091: “typedef ”: 没有声明变量时忽略“TBTNode”的左侧
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-17\thread-binary-tree\main.cpp(17,2): warning C4091: “typedef ”: 没有声明变量时忽略“SqStack”的左侧
+  thread-binary-tree.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-17\Debug\thread-binary-tree.exe

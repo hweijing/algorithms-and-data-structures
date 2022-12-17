@@ -1,0 +1,7 @@
+﻿  main.cpp
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-17\binary-tree\main.cpp(10,2): warning C4091: “typedef ”: 没有声明变量时忽略“BTNode”的左侧
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-17\binary-tree\main.cpp(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“SqStack”的左侧
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-17\binary-tree\main.cpp(121,2): warning C4091: “typedef ”: 没有声明变量时忽略“CirQueue”的左侧
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-17\binary-tree\main.cpp(256,17): warning C4474: printf: 格式字符串中传递的参数太多
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-17\binary-tree\main.cpp(256,17): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+  binary-tree.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-17\Debug\binary-tree.exe

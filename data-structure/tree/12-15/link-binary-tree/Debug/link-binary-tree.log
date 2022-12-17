@@ -1,5 +1,0 @@
-﻿  main.cpp
-E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-15\link-binary-tree\main.cpp(10,2): warning C4091: “typedef ”: 没有声明变量时忽略“BTNode”的左侧
-E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-15\link-binary-tree\main.cpp(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“SqStack”的左侧
-E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-15\link-binary-tree\main.cpp(288): warning C4715: “levelNodeNumber”: 不是所有的控件路径都返回值
-  link-binary-tree.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-15\Debug\link-binary-tree.exe
