@@ -1,0 +1,5 @@
+﻿  main.cpp
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\graph\12-18\adj-list-graph\main.cpp(10,2): warning C4091: “typedef ”: 没有声明变量时忽略“SideNode”的左侧
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\graph\12-18\adj-list-graph\main.cpp(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“HeadNode”的左侧
+E:\vs2019\projects\algorithms-and-data-structures\data-structure\graph\12-18\adj-list-graph\main.cpp(21,2): warning C4091: “typedef ”: 没有声明变量时忽略“AdjGraph”的左侧
+  adj-list-graph.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\graph\12-18\Debug\adj-list-graph.exe
