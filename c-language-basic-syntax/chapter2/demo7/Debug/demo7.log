@@ -1,3 +1,0 @@
-﻿  main.c
-E:\vs2019\projects\algorithms-and-data-structures\c-language-basic-syntax\chapter2\demo7\main.c(14,12): warning C4047: “=”:“char”与“char [5]”的间接级别不同
-  demo7.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\c-language-basic-syntax\chapter2\Debug\demo7.exe

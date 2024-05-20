@@ -1,4 +1,0 @@
-﻿  main.c
-E:\vs2019\projects\algorithms-and-data-structures\c-language-basic-syntax\chapter5\demo3\main.c(19,28): warning C4047: “==”:“int (*)[5]”与“int *”的间接级别不同
-E:\vs2019\projects\algorithms-and-data-structures\c-language-basic-syntax\chapter5\demo3\main.c(23,26): warning C4047: “==”:“int [5]”与“int”的间接级别不同
-  demo3.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\c-language-basic-syntax\chapter5\Debug\demo3.exe

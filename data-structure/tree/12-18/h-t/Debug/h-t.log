@@ -1,3 +1,0 @@
-﻿  main.cpp
-E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-18\h-t\main.cpp(9,2): warning C4091: “typedef ”: 没有声明变量时忽略“HTNode”的左侧
-  h-t.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-18\Debug\h-t.exe

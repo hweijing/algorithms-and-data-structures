@@ -1,3 +1,0 @@
-﻿  main.c
-E:\vs2019\projects\algorithms-and-data-structures\c-language-basic-syntax\chapter2\demo4\main.c(9,1): warning C4305: “初始化”: 从“double”到“float”截断
-  demo4.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\c-language-basic-syntax\chapter2\Debug\demo4.exe

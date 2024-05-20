@@ -1,3 +1,0 @@
-﻿  main.c
-E:\vs2019\projects\algorithms-and-data-structures\c-language-basic-syntax\chapter4\demo5\main.c(12,6): warning C4013: “gets”未定义；假设外部返回 int
-  demo5.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\c-language-basic-syntax\chapter4\Debug\demo5.exe

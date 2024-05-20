@@ -1,3 +1,0 @@
-﻿  main.cpp
-E:\vs2019\projects\algorithms-and-data-structures\data-structure\queue\11-30\sq-queue\main.cpp(12,2): warning C4091: “typedef ”: 没有声明变量时忽略“SqQueue”的左侧
-  sq-queue.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\queue\11-30\Debug\sq-queue.exe

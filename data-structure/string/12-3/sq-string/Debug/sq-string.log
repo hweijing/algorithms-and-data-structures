@@ -1,3 +1,0 @@
-﻿  main.cpp
-E:\vs2019\projects\algorithms-and-data-structures\data-structure\string\12-3\sq-string\main.cpp(8,2): warning C4091: “typedef ”: 没有声明变量时忽略“SqString”的左侧
-  sq-string.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\string\12-3\Debug\sq-string.exe

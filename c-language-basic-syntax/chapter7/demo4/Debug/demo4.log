@@ -1,3 +1,0 @@
-﻿  main.cpp
-E:\vs2019\projects\algorithms-and-data-structures\c-language-basic-syntax\chapter7\demo4\main.cpp(20,13): warning C4326: “main”的返回类型应为“int”而非“void”
-  demo4.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\c-language-basic-syntax\chapter7\Debug\demo4.exe

@@ -1,5 +1,0 @@
-﻿  main.cpp
-E:\vs2019\projects\algorithms-and-data-structures\data-structure\graph\12-18\d-f-s\main.cpp(10,2): warning C4091: “typedef ”: 没有声明变量时忽略“SideNode”的左侧
-E:\vs2019\projects\algorithms-and-data-structures\data-structure\graph\12-18\d-f-s\main.cpp(15,2): warning C4091: “typedef ”: 没有声明变量时忽略“HeadNode”的左侧
-E:\vs2019\projects\algorithms-and-data-structures\data-structure\graph\12-18\d-f-s\main.cpp(21,2): warning C4091: “typedef ”: 没有声明变量时忽略“AdjGraph”的左侧
-  d-f-s.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\graph\12-18\Debug\d-f-s.exe

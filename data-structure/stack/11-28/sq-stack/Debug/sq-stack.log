@@ -1,3 +1,0 @@
-﻿  main.cpp
-E:\vs2019\projects\algorithms-and-data-structures\data-structure\stack\11-28\sq-stack\main.cpp(11,2): warning C4091: “typedef ”: 没有声明变量时忽略“SqStack”的左侧
-  sq-stack.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\stack\11-28\Debug\sq-stack.exe

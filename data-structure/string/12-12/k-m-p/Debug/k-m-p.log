@@ -1,4 +1,0 @@
-﻿  main.cpp
-E:\vs2019\projects\algorithms-and-data-structures\data-structure\string\12-12\k-m-p\main.cpp(9,2): warning C4091: “typedef ”: 没有声明变量时忽略“SqString”的左侧
-E:\vs2019\projects\algorithms-and-data-structures\data-structure\string\12-12\k-m-p\main.cpp(14,2): warning C4091: “typedef ”: 没有声明变量时忽略“LinkNode”的左侧
-  k-m-p.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\string\12-12\Debug\k-m-p.exe

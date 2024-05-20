@@ -1,3 +1,0 @@
-﻿  main.cpp
-E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-18\union-find-set\main.cpp(9,2): warning C4091: “typedef ”: 没有声明变量时忽略“UFSNode”的左侧
-  union-find-set.vcxproj -> E:\vs2019\projects\algorithms-and-data-structures\data-structure\tree\12-18\Debug\union-find-set.exe
